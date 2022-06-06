@@ -1,0 +1,48 @@
+{% extends 'partials/layouts/_master.twig' %}
+
+{% block content %}
+
+{% set categories = craft.categories().all() %}
+
+<section class="container mx-auto py-8 sm:py-12 px-4 sm:px-0" >
+
+     <div class="grid grid-cols-4 gap-4">
+
+       {% if categories | length > 0 %}
+
+         {% nav category in categories %}
+
+           <div class="">
+
+             <h2 class="text-green text-2xl uppercase font-bold pb-8	">{{ category.title }}</h2>
+
+             {% set catImage = category.categoryImage.one() %}
+
+             <img class="w-full" src="{{ catImage.getUrl('productImageTransform')}}"/>
+
+             {% set items = craft.entries.relatedTo(category).limit(5).all() %}
+
+             <div class="">
+
+               {% for item in items %}
+
+                 <div class="text-green py-6 border-b border-green"> <a href="{{ item.url }}">{{ item.title }} &rsaquo;  </a></div>
+
+               {% endfor %}
+
+               <div class="text-green py-6 border-b border-green"> <a href="{{ category.url }}">See all ({{ items| length }})  &rsaquo;  </a></div>
+
+
+             </div>
+
+           </div>
+
+         {% endnav %}
+
+       {% endif %}
+
+     </div>
+
+</section>
+
+{% endblock %}

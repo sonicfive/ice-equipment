@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: ICE
+primary: true
+siteGroup: 45c66867-d70e-40af-a449-2ccc9b534f72 # ICE
+sortOrder: 1

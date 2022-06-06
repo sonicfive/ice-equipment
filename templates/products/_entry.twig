@@ -1,0 +1,59 @@
+{% extends 'partials/layouts/_master.twig' %}
+
+{% block content %}
+
+
+  <section class="container mx-auto py-8 sm:py-12 px-4 sm:px-0">
+
+    {% set category = craft.categories() %}
+
+    <span class="text-sm">Home / <a class="text-green" href="#"> {{ entry.title }}</a></span>
+
+       <h1 class="text-3xl text-black my-4">{{ entry.title}}</h1>
+
+       <div class="w-16 bg-green h-1"></div>
+
+       <div class="flex mt-8">
+
+         <div class="flex-none w-1/2 bg-gray-100 p-8 rounded-lg ">
+
+           <p class="text-green text-xl mb-4">
+             Spicy jalapeno pork chop ham bresaola alcatra meatloaf chuck.
+
+           </p>
+
+           <p>
+             Beef ribs ribeye picanha pork jerky biltong tri-tip ham beef meatloaf bresaola brisket shoulder. Bacon short loin pig strip steak tongue alcatra shank jerky burgdoggen ham corned beef.
+           </p>
+
+         </div>
+
+         <div class="flex-initial w-1/2 pl-20">
+
+
+           <div class="slick w-full" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
+            <div>
+              <img class="w-full" src="http://placehold.jp/450x350.png"/>
+            </div>
+            <div>
+              <img class="w-full" src="http://placehold.jp/450x351.png"/>
+            </div>
+            <div>
+              <img class="w-full" src="http://placehold.jp/450x352.png"/>
+            </div>
+            <div>
+              <img class="w-full" src="http://placehold.jp/450x353.png"/>
+            </div>
+            <div>
+              <img class="w-full" src="http://placehold.jp/450x354.png"/>
+            </div>
+          </div>
+
+         </div>
+
+
+       </div>
+
+  </section>
+
+{% endblock %}

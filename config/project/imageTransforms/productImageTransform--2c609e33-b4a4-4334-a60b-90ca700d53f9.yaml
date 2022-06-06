@@ -1,0 +1,9 @@
+format: null
+handle: productImageTransform
+height: 50
+interlace: none
+mode: crop
+name: 'Product Category'
+position: center-center
+quality: 60
+width: 250

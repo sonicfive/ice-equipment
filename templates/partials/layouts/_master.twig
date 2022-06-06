@@ -1,0 +1,84 @@
+{% include 'partials/_head.twig' %}
+
+    <body>
+
+      {% include 'partials/_header.twig' %}
+
+
+        {#
+        <div id="layerslider" class=" hidden sm:block" style="width: 800px; height: 300px; z-index:0">
+
+              <!--  slide 1 -->
+
+                <div class="ls-slide" data-ls="duration: 4000; transition2d: 2,7,9;">
+
+                        <img class="ls-bg"
+                        src="img/slider/bg1.png" />
+
+
+                        <img class="ls-l"
+                        style="top: 0%;  width: 300px;"
+                        src="img/slider/bman2.png" />
+
+
+
+
+
+                    <h1 class="ls-layer"
+                    style="
+                    color: #2E9E3F;
+                    font-size: 24px;
+                    top: 25%;
+                    left: 48%;
+                    opacity: 1;
+                    line-height: 1;
+                    font-weight: 800;
+                    text-align: cleft;
+                    "
+                    >A PROPER LIGHTING<br/> SOLUTION MATTERS</h1>
+
+
+                    <p class="ls-layer"
+                    style="color: #000000;
+                    left: 55%;
+                    top: 50%;
+                    width: 350px;
+                    font-size: 18px;
+                    white-space: normal;
+                    text-align: left;
+                    "
+                    >
+                    In 75% of audit cases we have found key areas of opportunity where we were able to save energy to our customers by implementing a few simple adjustments.
+                    </p>
+
+                    <a href="#" class="ls-l bg-yellow py-2 px-2 text-green"
+                    style=
+                    "left: 40%;
+                    top: 75%;
+                    font-size: 11px;
+                    display: inline-block;
+                    padding: 4px 15px 4px 15px;
+                    border-radius: 3px;
+                    "
+                    >Schedule Audit</a>
+
+                   </div>
+
+
+
+           </div>
+           #}
+
+           {% block content %}
+        
+           {% endblock %}
+
+
+           {% include 'partials/_footer.twig' %}
+
+
+           {% include 'partials/_scripts.twig' %}
+
+    </body>
+
+</html>

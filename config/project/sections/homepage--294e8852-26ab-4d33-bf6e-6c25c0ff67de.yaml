@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: homepage
+name: Homepage
+propagationMethod: all
+siteSettings:
+  8c24854d-2b25-4b0f-8843-0d41ff0610bb: # ICE
+    enabledByDefault: true
+    hasUrls: true
+    template: homepage/_entry
+    uriFormat: __home__
+type: single

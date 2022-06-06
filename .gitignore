@@ -1,0 +1,5 @@
+/web/assets
+/.env
+/.idea
+/vendor
+.DS_Store

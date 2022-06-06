@@ -1,0 +1,25 @@
+columnSuffix: bvsyqcrq
+contentColumnType: string
+fieldGroup: 74adc2ef-885d-47a1-a31a-5548333b39e3 # Products
+handle: ProductCategory
+instructions: null
+name: 'Product Category'
+searchable: false
+settings:
+  allowLimit: false
+  allowMultipleSources: false
+  allowSelfRelations: false
+  branchLimit: null
+  localizeRelations: false
+  maxRelations: null
+  minRelations: null
+  selectionLabel: null
+  showSiteMenu: true
+  source: 'group:6c659a25-022f-4e77-b9bd-643caa16980c' # Product Category
+  sources: '*'
+  targetSiteId: null
+  validateRelatedElements: false
+  viewMode: null
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Categories

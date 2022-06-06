@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: products
+name: Products
+propagationMethod: all
+siteSettings:
+  8c24854d-2b25-4b0f-8843-0d41ff0610bb: # ICE
+    enabledByDefault: true
+    hasUrls: true
+    template: products/_entry
+    uriFormat: 'products/{slug}'
+structure:
+  maxLevels: null
+  uid: 3135fe71-7935-4cdc-bdec-29752ff18dbd
+type: structure
