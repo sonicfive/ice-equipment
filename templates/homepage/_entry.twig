@@ -16,9 +16,15 @@
 
              <h2 class="text-green text-2xl uppercase font-bold pb-8	">{{ category.title }}</h2>
 
-             {% set catImage = category.categoryImage.one() %}
 
-             <img class="w-full" src="{{ catImage.getUrl('productImageTransform')}}"/>
+
+             {% set categoryImage = category.categoryImage.one() %}
+
+             {% if(categoryImage) %}
+
+              <img class="w-full" src="{{ categoryImage.getUrl('productImageTransform')}}"/>
+
+             {% endif %}
 
              {% set items = craft.entries.relatedTo(category).limit(5).all() %}
 
