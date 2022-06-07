@@ -1,4 +1,4 @@
-dateModified: 1654573787
+dateModified: 1654644129
 email:
   fromEmail: alex@rocketwire.dev
   fromName: ICE
@@ -21,6 +21,7 @@ meta:
     32f57ee9-2aa6-4ff2-87ab-8c8773470569: 'Product Options' # Product Options
     35a0942c-9243-46e3-bc87-7e13ed35879c: 'Product Category' # Product Category
     45c66867-d70e-40af-a449-2ccc9b534f72: ICE # ICE
+    59b05f1c-b9fd-45c0-b2f7-92e14d24210c: Description # Description
     74adc2ef-885d-47a1-a31a-5548333b39e3: Products # Products
     294e8852-26ab-4d33-bf6e-6c25c0ff67de: Homepage # Homepage
     405a4b54-d61e-43fb-9302-eff77c6f3870: Products # Products
@@ -29,6 +30,7 @@ meta:
     c4175752-8b89-40cf-807e-81917ed326b7: 'Product Images' # Product Images
     f4fd01cd-1e6f-4004-af07-bd5c623c023e: 'Product Images' # Product Images
     f89b5e2a-1bab-49d2-a41f-8df8087561dd: Common # Common
+    ff61171f-2c08-433e-8b8d-c1cbdb7df74f: Subtitle # Subtitle
 system:
   edition: solo
   live: true

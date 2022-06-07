@@ -1,0 +1,19 @@
+columnSuffix: tlrmthij
+contentColumnType: text
+fieldGroup: 74adc2ef-885d-47a1-a31a-5548333b39e3 # Products
+handle: description
+instructions: 'Product description will be compiled as markdown'
+name: Description
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 5
+  multiline: true
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

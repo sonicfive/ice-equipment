@@ -18,13 +18,12 @@
          <div class="flex-none w-1/2 bg-gray-100 p-8 rounded-lg ">
 
            <p class="text-green text-xl mb-4">
-             Spicy jalapeno pork chop ham bresaola alcatra meatloaf chuck.
+             
+             {{ entry.subtitle }}
 
            </p>
 
-           <p>
-             Beef ribs ribeye picanha pork jerky biltong tri-tip ham beef meatloaf bresaola brisket shoulder. Bacon short loin pig strip steak tongue alcatra shank jerky burgdoggen ham corned beef.
-           </p>
+           {{ entry.description | markdown }}
 
          </div>
 

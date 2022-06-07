@@ -2,7 +2,7 @@ columnSuffix: null
 contentColumnType: string
 fieldGroup: 74adc2ef-885d-47a1-a31a-5548333b39e3 # Products
 handle: productImages
-instructions: 'Product iamges'
+instructions: 'Drop your product images here. This is not a necessary field. There is a maximum of 5 images.'
 name: 'Product Images'
 searchable: false
 settings:
@@ -14,7 +14,7 @@ settings:
   defaultUploadLocationSubpath: null
   localizeRelations: false
   maxRelations: 5
-  minRelations: 1
+  minRelations: 0
   previewMode: full
   restrictFiles: false
   restrictLocation: false
@@ -32,7 +32,7 @@ settings:
       -
         - class
         - craft\elements\conditions\assets\AssetCondition
-  selectionLabel: 'Add an asset'
+  selectionLabel: 'Add your images'
   showSiteMenu: true
   showUnpermittedFiles: false
   showUnpermittedVolumes: false
@@ -40,7 +40,7 @@ settings:
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false
-  viewMode: large
+  viewMode: list
 translationKeyFormat: null
 translationMethod: site
 type: craft\fields\Assets
