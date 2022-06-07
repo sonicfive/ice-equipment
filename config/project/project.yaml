@@ -1,4 +1,4 @@
-dateModified: 1654557601
+dateModified: 1654573222
 email:
   fromEmail: alex@rocketwire.dev
   fromName: ICE
@@ -15,10 +15,10 @@ meta:
   __names__:
     2c609e33-b4a4-4334-a60b-90ca700d53f9: 'Product Category' # Product Category
     3ff5b49b-ea8c-43bf-bbbb-3827d8acd731: Homepage # Homepage
-    6c659a25-022f-4e77-b9bd-643caa16980c: 'Products Category' # Product Category
+    6c659a25-022f-4e77-b9bd-643caa16980c: 'Products Category' # Products Category
     8c24854d-2b25-4b0f-8843-0d41ff0610bb: ICE # ICE
     9f1e068e-c021-462e-a462-aab04c5c1249: 'Image Uploads' # Image Uploads
-    32f57ee9-2aa6-4ff2-87ab-8c8773470569: Default # Default
+    32f57ee9-2aa6-4ff2-87ab-8c8773470569: 'Product Options' # Product Options
     35a0942c-9243-46e3-bc87-7e13ed35879c: 'Product Category' # Product Category
     45c66867-d70e-40af-a449-2ccc9b534f72: ICE # ICE
     74adc2ef-885d-47a1-a31a-5548333b39e3: Products # Products
@@ -26,6 +26,8 @@ meta:
     405a4b54-d61e-43fb-9302-eff77c6f3870: Products # Products
     679f2dc1-695f-44fd-aeff-f5e2f902278e: Homepage # Homepage
     afbd4ef2-b8ec-45a8-ac7a-8fa251beda20: 'Category Image' # Category Image
+    c4175752-8b89-40cf-807e-81917ed326b7: 'Product Images' # Product Images
+    f4fd01cd-1e6f-4004-af07-bd5c623c023e: 'Product Images' # Product Images
     f89b5e2a-1bab-49d2-a41f-8df8087561dd: Common # Common
 system:
   edition: solo

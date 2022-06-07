@@ -32,21 +32,17 @@
 
 
            <div class="slick w-full" data-slick='{"slidesToShow": 1, "slidesToScroll": 1}'>
-            <div>
-              <img class="w-full" src="http://placehold.jp/450x350.png"/>
-            </div>
-            <div>
-              <img class="w-full" src="http://placehold.jp/450x351.png"/>
-            </div>
-            <div>
-              <img class="w-full" src="http://placehold.jp/450x352.png"/>
-            </div>
-            <div>
-              <img class="w-full" src="http://placehold.jp/450x353.png"/>
-            </div>
-            <div>
-              <img class="w-full" src="http://placehold.jp/450x354.png"/>
-            </div>
+
+             {% for image in entry.productImages.all() %}
+
+              <div>
+
+                <img class="w-full" src="{{ image.getUrl('productImage') }}"/>
+
+              </div>
+              
+            {% endfor %}
+
           </div>
 
          </div>
