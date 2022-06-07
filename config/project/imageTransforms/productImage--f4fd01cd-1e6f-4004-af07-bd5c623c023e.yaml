@@ -1,0 +1,9 @@
+format: null
+handle: productImage
+height: 250
+interlace: none
+mode: crop
+name: 'Product Images'
+position: center-center
+quality: 60
+width: 350

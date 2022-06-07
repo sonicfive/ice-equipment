@@ -15,7 +15,7 @@ settings:
   minRelations: null
   selectionLabel: null
   showSiteMenu: true
-  source: 'group:6c659a25-022f-4e77-b9bd-643caa16980c' # Product Category
+  source: 'group:6c659a25-022f-4e77-b9bd-643caa16980c' # Products Category
   sources: '*'
   targetSiteId: null
   validateRelatedElements: false

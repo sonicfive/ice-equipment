@@ -37,11 +37,21 @@ fieldLayouts:
             uid: d50cfa37-4bab-480b-bbb2-8fc6d0fe5af9
             warning: null
             width: 100
+          -
+            fieldUid: c4175752-8b89-40cf-807e-81917ed326b7 # Product Images
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2b622d1c-20db-4446-b0d1-8e0b2e9a45c2
+            warning: null
+            width: 100
         name: Content
         uid: a5b19c81-8819-4c1e-b96a-45195f33d4fe
 handle: default
 hasTitleField: true
-name: Default
+name: 'Product Options'
 section: 405a4b54-d61e-43fb-9302-eff77c6f3870 # Products
 sortOrder: 1
 titleFormat: null
